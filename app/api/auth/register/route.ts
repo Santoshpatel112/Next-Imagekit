@@ -18,7 +18,7 @@ export async function POST(req :NextRequest){
             email,
             password,
         });
-        return NextResponse.json({message:"User registered successfully"
+        return NextResponse.json({message:"User registered successfully",newUser
         },{status:201});
     } catch (error) {
         return NextResponse.json({error:"Internal Server Error"},{status:500});
