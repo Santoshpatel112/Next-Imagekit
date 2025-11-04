@@ -1,4 +1,3 @@
-import { channel } from "diagnostics_channel";
 import mongoose from "mongoose";
 
 const MONGO_URl=process.env.MONGO_URL;
@@ -7,7 +6,7 @@ if(!MONGO_URl) throw new Error("MONGO_URL is not defined in environment variable
 let cashed=global.mongoose
 if(!cashed){
     cashed={cnn:null,promise:null};
-    global.mongoose=cashed;
+    global.mongoose= cashed={cnn:null,promise:null};
 }
 export async function connectDb(){
     const opt={
