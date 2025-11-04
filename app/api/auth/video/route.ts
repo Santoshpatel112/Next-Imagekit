@@ -2,7 +2,6 @@ import { connectDb } from "@/lib/Db";
 import Video from "@/Models/Video";
 import { NextResponse } from "next/server";
 
-
 export async function GET(){
     try {
         await connectDb();
