@@ -1,5 +1,5 @@
 import { connectDb } from "@/lib/Db";
-import User from "@/models/User";
+import User from "@/Models/User";
 import { error } from "console";
 import { NextRequest ,NextResponse } from "next/server";
 
