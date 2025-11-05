@@ -127,14 +127,14 @@ graph LR
 │   ├── 👤 User.ts                   # User model
 │   └── 🎬 Video.ts                  # Video model
 ├── 📂 types/                        # TypeScript definitions
-│   └── 🎬 video.ts                  # Vide
-</table>
+│   └── 🎬 video.ts                  # Video interfaces
+└── 📄 package.json                  # Dependencies
+```
 
-### **📱 Responsive Showcase**
+---
 
-| Device Type | Screen Size | Layout Features |
-|-------------|-------------|-----------------|
-| 🖥️ **Desktop** | 1920px+ | Multi-column grid, full navigation, hover effects |
+## ⚡ Quick Start
+
 | 💻 **Laptop** | 1024px+ | Adaptive grid, condensed navigation |
 | 📱 **Mobile** | 768px- | Single column, hamburger menu, touch-optimized |
 | 📟 **Tablet** | 768px-1024px | Two-column grid, hybrid navigation |
