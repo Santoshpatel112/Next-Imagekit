@@ -124,7 +124,7 @@ const Page = () => {
 
           <div className="mt-6 text-center">
             <p className="text-gray-300 text-sm">
-              Don't have an account?{' '}
+              Don t have an account?{' '}
               <button 
                 onClick={() => router.push('/register')}
                 className="text-purple-400 font-semibold hover:text-purple-300 transition-colors inline-flex items-center gap-1 group"
