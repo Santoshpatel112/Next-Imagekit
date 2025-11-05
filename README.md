@@ -24,8 +24,7 @@
 
 ### **🏠 Landing Page - Hero Experience**
 
-<!-- Replace this placeholder with your actual screenshot URL -->
-<img src="https://via.placeholder.com/800x500/9333ea/ffffff?text=Landing+Page+Screenshot" alt="VideoHub Landing Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+![VideoHub Landing Page](https://via.placeholder.com/800x500/9333ea/ffffff?text=🏠+Landing+Page)
 
 > **✨ Features:** Animated blob background • Glassmorphic hero section • Gradient typography • Responsive navigation • Dynamic CTAs
 
@@ -33,8 +32,7 @@
 
 ### **📤 Upload Interface - Creator Dashboard**
 
-<!-- Replace this placeholder with your actual screenshot URL -->
-<img src="https://via.placeholder.com/800x500/ec4899/ffffff?text=Upload+Interface+Screenshot" alt="VideoHub Upload Interface" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+![VideoHub Upload Interface](https://via.placeholder.com/800x500/ec4899/ffffff?text=📤+Upload+Interface)
 
 > **🚀 Features:** Drag & drop upload • Real-time progress tracking • Metadata forms • Thumbnail upload • Success animations
 
@@ -42,8 +40,7 @@
 
 ### **🌐 Browse Videos - Public Discovery**
 
-<!-- Replace this placeholder with your actual screenshot URL -->
-<img src="https://via.placeholder.com/800x500/06b6d4/ffffff?text=Browse+Videos+Screenshot" alt="VideoHub Browse Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+![VideoHub Browse Page](https://via.placeholder.com/800x500/06b6d4/ffffff?text=🌐+Browse+Videos)
 
 > **🎬 Features:** Responsive video grid • Thumbnail previews • Hover play buttons • User information • Upload dates
 
