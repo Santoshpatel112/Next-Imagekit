@@ -24,7 +24,7 @@
 
 ### **🏠 Landing Page - Hero Experience**
 
-![VideoHub Landing Page](https://i.imgur.com/placeholder-landing.png)
+![VideoHub Landing Page](./public/screenshots/landing-page.png)
 
 > **✨ Features:** Animated blob background • Glassmorphic hero section • Gradient typography • Responsive navigation • Dynamic CTAs
 
@@ -32,7 +32,7 @@
 
 ### **📤 Upload Interface - Creator Dashboard**
 
-![VideoHub Upload Interface](https://i.imgur.com/placeholder-upload.png)
+![VideoHub Upload Interface](./public/screenshots/upload-interface.png)
 
 > **🚀 Features:** Drag & drop upload • Real-time progress tracking • Metadata forms • Thumbnail upload • Success animations
 
@@ -40,11 +40,29 @@
 
 ### **🌐 Browse Videos - Public Discovery**
 
-![VideoHub Browse Page](https://i.imgur.com/placeholder-browse.png)
+![VideoHub Browse Page](./public/screenshots/browse-videos.png)
 
 > **🎬 Features:** Responsive video grid • Thumbnail previews • Hover play buttons • User information • Upload dates
 
 </div>
+
+### **📷 How to Add Screenshots**
+
+To add your application screenshots:
+
+1. **Save your screenshots** as PNG files with these exact names:
+   - `landing-page.png` - Your homepage/landing page
+   - `upload-interface.png` - The video upload page
+   - `browse-videos.png` - The browse/discovery page
+
+2. **Place them in** the `public/screenshots/` folder
+
+3. **Recommended dimensions**: 1200x800px or similar 3:2 aspect ratio
+
+4. **Alternative hosting**: If you prefer external hosting, you can use:
+   - [Imgur](https://imgur.com) - Free image hosting
+   - [GitHub Issues](https://github.com/yourusername/videohub/issues) - Upload images in a new issue and copy the URLs
+   - [ImageKit](https://imagekit.io) - Since you're already using it for the app
 
 ### **🎨 Design System Highlights**
 
