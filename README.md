@@ -1,95 +1,276 @@
-# 🎥 VideoHub - Modern Video Upload Platform
+# 🎥 VideoHub - Next-Gen Video Platform
 
-A beautiful, modern video upload and management platform built with Next.js 14, featuring glassmorphism design, smooth animations, and a cohesive purple/pink color scheme.
+<div align="center">
+
+![VideoHub Banner](https://img.shields.io/badge/VideoHub-Next--Gen%20Platform-blueviolet?style=for-the-badge&logo=video&logoColor=white)
+
+**A stunning, modern video upload and management platform with glassmorphism UI, real-time features, and seamless user experience**
+
+[![Next.js](https://img.shields.io/badge/Next.js-15.0-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![ImageKit](https://img.shields.io/badge/ImageKit-CDN-ff6b6b?style=flat-square)](https://imagekit.io/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+
+[🚀 Live Demo](https://your-demo-url.com) • [📖 Documentation](#-documentation) • [🎯 Features](#-features) • [⚡ Quick Start](#-quick-start)
+
+</div>
+
+---
+
+## 🌟 What Makes VideoHub Special
+
+VideoHub isn't just another video platform - it's a **modern, full-stack application** that showcases cutting-edge web development practices with beautiful UI/UX design. Built as a learning project to master **Next.js 15**, **ImageKit CDN**, and modern React patterns.
+
+### 🎯 **Purpose & Learning Goals**
+
+This project was created to:
+- **Master Next.js 15** with App Router and Server Components
+- **Learn ImageKit integration** for optimized media delivery
+- **Implement modern authentication** with NextAuth.js
+- **Practice TypeScript** in a real-world application
+- **Create beautiful UI** with Tailwind CSS and glassmorphism
+- **Build responsive designs** that work across all devices
+- **Understand full-stack development** from frontend to database
 
 ## ✨ Features
 
-### 🎨 Modern UI/UX
+<div align="center">
 
-- **Glassmorphism Design**: Frosted glass effects with backdrop blur
-- **Animated Backgrounds**: Floating blob animations throughout the platform
-- **Smooth Transitions**: Hover effects, loading states, and micro-interactions
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
-- **Consistent Color Scheme**: Purple/pink/blue gradient theme across all pages
+### 🎨 **Stunning Visual Design**
+*Glassmorphism meets modern web aesthetics*
 
-### 🔐 Authentication
+</div>
 
-- User registration with email/password
-- Secure login with NextAuth.js
-- Session management
-- Protected routes
+| Feature | Description | Tech Used |
+|---------|-------------|-----------|
+| 🌈 **Glassmorphism UI** | Frosted glass effects with backdrop blur | Tailwind CSS + Custom CSS |
+| 🎭 **Animated Backgrounds** | Floating blob animations throughout | CSS Keyframes + React |
+| ⚡ **Smooth Transitions** | Hover effects, loading states, micro-interactions | Tailwind Transitions |
+| 📱 **Responsive Design** | Perfect on desktop, tablet, and mobile | Tailwind Responsive Classes |
+| 🎨 **Gradient Themes** | Purple/pink/blue gradient consistency | CSS Custom Properties |
 
-### 📹 Video Management
+<div align="center">
 
-- **Upload Videos**: Drag & drop video upload with progress tracking
-- **Add Thumbnails**: Optional custom thumbnail upload
-- **Video Library**: View all your uploaded videos in a beautiful grid
-- **Delete Videos**: Remove videos you no longer need
-- **Video Metadata**: Add titles and descriptions
+### 🔐 **Secure Authentication System**
+*NextAuth.js powered security*
 
-### 🚀 Technical Features
+</div>
 
-- **Next.js 14**: App Router with Server Components
-- **TypeScript**: Full type safety
-- **Tailwind CSS**: Utility-first styling
-- **ImageKit Integration**: Fast, optimized media delivery
-- **Real-time Progress**: Upload progress indicators
-- **Loading States**: Skeleton screens and spinners
-- **Error Handling**: User-friendly error messages
+| Feature | Description | Implementation |
+|---------|-------------|----------------|
+| 📝 **User Registration** | Email/password with validation | NextAuth.js + MongoDB |
+| 🔑 **Secure Login** | Session-based authentication | JWT + Cookies |
+| 🛡️ **Protected Routes** | Route-level access control | Middleware + Session Check |
+| 👤 **Session Management** | Persistent login state | NextAuth Session Provider |
+| 🚪 **Logout System** | Clean session termination | NextAuth signOut |
 
-## 📁 Project Structure
+<div align="center">
+
+### 📹 **Advanced Video Management**
+*ImageKit powered media handling*
+
+</div>
+
+| Feature | Description | Technology |
+|---------|-------------|------------|
+| 📤 **Drag & Drop Upload** | Intuitive file upload with progress | ImageKit Upload API |
+| 🖼️ **Thumbnail Support** | Custom thumbnail upload & display | ImageKit Transformation |
+| 📊 **Real-time Progress** | Live upload progress tracking | ImageKit Progress Events |
+| 🎬 **Video Library** | Beautiful grid layout with thumbnails | React State + MongoDB |
+| 🗑️ **Video Management** | Delete, edit, and organize videos | RESTful API + MongoDB |
+| 🎯 **Browse Videos** | Public video discovery page | Server-side Rendering |
+
+<div align="center">
+
+### 🚀 **Technical Excellence**
+*Modern full-stack architecture*
+
+</div>
+
+| Feature | Description | Stack |
+|---------|-------------|-------|
+| ⚡ **Next.js 15** | App Router with Server Components | React 18 + Next.js |
+| 🔷 **TypeScript** | Full type safety across the app | TypeScript 5.0 |
+| 🎨 **Tailwind CSS** | Utility-first styling system | Tailwind CSS 3.4 |
+| 🌐 **ImageKit CDN** | Optimized media delivery | ImageKit API |
+| 🗄️ **MongoDB Atlas** | Cloud database with Mongoose | MongoDB + Mongoose |
+| 🔒 **NextAuth.js** | Authentication & session management | NextAuth.js 4.24 |
+
+## 🏗️ Tech Stack
+
+<div align="center">
+
+### **Frontend Architecture**
+
+</div>
+
+```mermaid
+graph TD
+    A[Next.js 15 App Router] --> B[React 18 Server Components]
+    A --> C[TypeScript 5.0]
+    B --> D[Tailwind CSS 3.4]
+    C --> E[Custom Animations]
+    D --> F[Glassmorphism UI]
+    E --> G[Responsive Design]
+```
+
+| Layer | Technology | Purpose | Version |
+|-------|------------|---------|---------|
+| **Framework** | Next.js | Full-stack React framework | 15.0+ |
+| **Language** | TypeScript | Type-safe development | 5.0+ |
+| **Styling** | Tailwind CSS | Utility-first CSS framework | 3.4+ |
+| **UI Components** | Custom React | Reusable component library | - |
+| **Animations** | CSS + Framer Motion | Smooth transitions & effects | - |
+
+<div align="center">
+
+### **Backend & Services**
+
+</div>
+
+```mermaid
+graph LR
+    A[Next.js API Routes] --> B[NextAuth.js]
+    A --> C[MongoDB Atlas]
+    A --> D[ImageKit CDN]
+    B --> E[JWT Sessions]
+    C --> F[Mongoose ODM]
+    D --> G[Media Optimization]
+```
+
+| Service | Technology | Purpose | Integration |
+|---------|------------|---------|-------------|
+| **Database** | MongoDB Atlas | Document storage | Mongoose ODM |
+| **Authentication** | NextAuth.js | User auth & sessions | JWT + Cookies |
+| **Media CDN** | ImageKit | Video/image optimization | Upload API |
+| **API** | Next.js API Routes | RESTful endpoints | Server-side logic |
+| **Deployment** | Vercel | Hosting & CI/CD | Git integration |
+
+## 📁 Project Architecture
+
+<div align="center">
+
+### **Folder Structure**
+
+</div>
 
 ```
-app/
-├── Components/
-│   ├── AnimatedBackground.tsx  # Reusable animated background
-│   ├── Fileupload.tsx          # File upload component
-│   ├── Navbar.tsx              # Navigation bar
-│   └── Providers.tsx           # Auth & ImageKit providers
-├── login/
-│   └── page.tsx                # Login page
-├── register/
-│   └── page.tsx                # Registration page
-├── upload/
-│   └── page.tsx                # Video upload page
-├── videos/
-│   └── page.tsx                # Video library page
-├── api/
-│   └── ...                     # API routes
-├── globals.css                 # Global styles & animations
-├── layout.tsx                  # Root layout
-└── page.tsx                    # Home page
+📦 videohub/
+├── 📂 app/                          # Next.js App Router
+│   ├── 📂 Components/               # Reusable UI components
+│   │   ├── 🎭 AnimatedBackground.tsx # Floating blob animations
+│   │   ├── 📤 Fileupload.tsx        # Drag & drop upload
+│   │   ├── 🧭 Navbar.tsx            # Navigation component
+│   │   └── 🔧 providers.tsx         # Context providers
+│   ├── 📂 api/                      # API endpoints
+│   │   ├── 📂 auth/                 # Authentication routes
+│   │   │   ├── 📂 [...nextauth]/    # NextAuth.js handler
+│   │   │   └── 📂 imagekit-auth/    # ImageKit auth token
+│   │   ├── 📂 videos/               # Video CRUD operations
+│   │   └── 📂 debug-*/              # Development utilities
+│   ├── 📂 browse/                   # Public video discovery
+│   │   └── 📄 page.tsx              # Browse videos page
+│   ├── 📂 login/                    # Authentication pages
+│   │   └── 📄 page.tsx              # Login form
+│   ├── 📂 register/                 # User registration
+│   │   └── 📄 page.tsx              # Signup form
+│   ├── 📂 upload/                   # Video upload flow
+│   │   └── 📄 page.tsx              # Upload interface
+│   ├── 📂 videos/                   # User video library
+│   │   └── 📄 page.tsx              # Personal videos
+│   ├── 🎨 globals.css               # Global styles & animations
+│   ├── 📄 layout.tsx                # Root layout component
+│   └── 📄 page.tsx                  # Landing page
+├── 📂 lib/                          # Utility libraries
+│   └── 🔧 api-client.ts             # API client helpers
+├── 📂 Models/                       # Database schemas
+│   ├── 👤 User.ts                   # User model (Mongoose)
+│   └── 🎬 Video.ts                  # Video model (Mongoose)
+├── 📂 types/                        # TypeScript definitions
+│   └── 🎬 video.ts                  # Video type interfaces
+├── 📄 package.json                  # Dependencies & scripts
+├── 📄 tailwind.config.js            # Tailwind configuration
+├── 📄 tsconfig.json                 # TypeScript configuration
+└── 📄 .env.local                    # Environment variables
+```
 
-lib/
-└── api-client.ts               # API client utilities
+<div align="center">
 
-types/
-└── video.ts                    # TypeScript types
+### **Component Hierarchy**
+
+</div>
+
+```mermaid
+graph TD
+    A[RootLayout] --> B[SessionProvider]
+    B --> C[ImageKitProvider]
+    C --> D[Page Components]
+    D --> E[Navbar]
+    D --> F[AnimatedBackground]
+    D --> G[Page Content]
+    G --> H[FileUpload]
+    G --> I[VideoCard]
+    G --> J[AuthForms]
 ```
 
 ## 🎨 Design System
 
-### Color Palette
+<div align="center">
 
-- **Primary**: Purple (#9333ea) to Pink (#ec4899)
-- **Secondary**: Blue (#3b82f6) to Cyan (#06b6d4)
-- **Background**: Slate (#0f172a) with gradients
-- **Text**: White with various opacities
+### **Visual Identity**
 
-### Components
+</div>
 
-- **Cards**: Glassmorphic with `bg-white/10` and `backdrop-blur-xl`
-- **Buttons**: Gradient backgrounds with hover lift effects
-- **Inputs**: Transparent with borders, focus rings
-- **Icons**: SVG icons with smooth transitions
+```css
+/* 🌈 Color Palette */
+:root {
+  --primary-gradient: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+  --secondary-gradient: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+  --background-dark: #0f172a;
+  --glass-light: rgba(255, 255, 255, 0.1);
+  --glass-medium: rgba(255, 255, 255, 0.2);
+}
+```
 
-### Animations
+| Element | Style | Implementation |
+|---------|-------|----------------|
+| 🎭 **Cards** | Glassmorphic design | `bg-white/10 backdrop-blur-xl` |
+| 🔘 **Buttons** | Gradient with hover lift | `hover:scale-105 transition-all` |
+| 📝 **Inputs** | Transparent with focus rings | `focus:ring-2 ring-purple-500` |
+| 🎯 **Icons** | SVG with smooth transitions | `transition-all duration-300` |
 
-- **Blob Animation**: 7s infinite floating motion
-- **Fade In**: Smooth entrance animations
-- **Hover Effects**: Scale, translate, and shadow changes
-- **Loading Spinners**: Rotating gradients
-- **Progress Bars**: Animated gradient fills
+<div align="center">
+
+### **Animation Library**
+
+</div>
+
+```css
+/* 🎭 Custom Animations */
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(168, 85, 247, 0.4); }
+  50% { box-shadow: 0 0 40px rgba(168, 85, 247, 0.6); }
+}
+```
+
+| Animation | Duration | Purpose | Usage |
+|-----------|----------|---------|-------|
+| 🌊 **Blob Float** | 7s infinite | Background ambiance | `.animate-blob` |
+| ✨ **Fade In** | 0.5s ease-out | Page transitions | `.animate-fade-in` |
+| 🎯 **Hover Scale** | 0.3s | Interactive feedback | `hover:scale-105` |
+| 💫 **Pulse Glow** | 2s infinite | Loading states | `.animate-pulse-glow` |
 
 ## � Applincation Workflow
 
@@ -349,129 +530,241 @@ Protected routes now redirect to /login
    └─ Display new video in grid
 ```
 
-## 🚀 Getting Started
+## ⚡ Quick Start
 
-### Prerequisites
+<div align="center">
 
-- Node.js 18+
-- npm or yarn
-- ImageKit account (for media storage)
-- Database (PostgreSQL, MySQL, etc.)
+### **Get VideoHub running in 5 minutes!**
 
-### Installation
+</div>
 
-1. Clone the repository
+### 📋 Prerequisites
+
+| Requirement | Version | Purpose |
+|-------------|---------|---------|
+| 🟢 **Node.js** | 18.0+ | Runtime environment |
+| 📦 **npm/yarn** | Latest | Package management |
+| 🌐 **ImageKit Account** | Free tier | Media CDN & optimization |
+| 🗄️ **MongoDB Atlas** | Free tier | Cloud database |
+
+### 🚀 Installation
 
 ```bash
-git clone <your-repo-url>
+# 1️⃣ Clone the repository
+git clone https://github.com/yourusername/videohub.git
 cd videohub
-```
 
-2. Install dependencies
-
-```bash
+# 2️⃣ Install dependencies
 npm install
+# or
+yarn install
+
+# 3️⃣ Set up environment variables (see below)
+cp .env.example .env.local
+
+# 4️⃣ Start development server
+npm run dev
+# or
+yarn dev
+
+# 🎉 Open http://localhost:3000
 ```
 
-3. Set up environment variables
-   Create a `.env.local` file:
+### 🔑 API Keys Setup
+
+<div align="center">
+
+**You'll need these free accounts:**
+
+</div>
+
+#### 1️⃣ **ImageKit Setup** (Free CDN)
+```bash
+# Visit: https://imagekit.io/
+# 1. Create free account
+# 2. Go to Developer Options
+# 3. Copy your credentials
+```
+
+#### 2️⃣ **MongoDB Atlas Setup** (Free Database)
+```bash
+# Visit: https://www.mongodb.com/atlas
+# 1. Create free cluster
+# 2. Create database user
+# 3. Get connection string
+```
+
+#### 3️⃣ **Environment Variables**
+
+Create `.env.local` file:
 
 ```env
-# Database
-DATABASE_URL="your-database-url"
+# 🗄️ Database Configuration
+MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/videohub"
 
-# NextAuth
-NEXTAUTH_SECRET="your-secret-key"
+# 🔐 NextAuth Configuration
+NEXTAUTH_SECRET="your-super-secret-key-here"
 NEXTAUTH_URL="http://localhost:3000"
 
-# ImageKit
-NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY="your-public-key"
-NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT="your-url-endpoint"
-IMAGEKIT_PRIVATE_KEY="your-private-key"
+# 📸 ImageKit Configuration (Free CDN)
+NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY="public_your_public_key_here"
+NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT="https://ik.imagekit.io/your_imagekit_id"
+IMAGEKIT_PRIVATE_KEY="private_your_private_key_here"
+
+# 🚀 Optional: Production URL
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
 
-4. Set up the database
+<div align="center">
 
-```bash
-npx prisma generate
-npx prisma db push
+### **🎯 What You'll Learn**
+
+</div>
+
+| Concept | Implementation | Real-world Application |
+|---------|----------------|------------------------|
+| 🏗️ **Next.js App Router** | File-based routing, Server Components | Modern React architecture |
+| 🔐 **Authentication** | NextAuth.js with sessions | Secure user management |
+| 📤 **File Uploads** | ImageKit integration with progress | Media handling at scale |
+| 🎨 **Modern UI/UX** | Glassmorphism, animations | Contemporary design trends |
+| 📱 **Responsive Design** | Mobile-first approach | Cross-device compatibility |
+| 🗄️ **Database Integration** | MongoDB with Mongoose | NoSQL data modeling |
+| ⚡ **Performance** | Image optimization, lazy loading | Production-ready optimization |
+
+### 🎬 **ImageKit Integration Deep Dive**
+
+VideoHub uses ImageKit for:
+
+```javascript
+// 🔧 Real-time upload progress
+const uploadVideo = async (file) => {
+  const authResponse = await fetch('/api/auth/imagekit-auth');
+  const authData = await authResponse.json();
+  
+  imagekit.upload({
+    file: file,
+    fileName: file.name,
+    ...authData,
+    onUploadProgress: (progress) => {
+      setUploadProgress(progress.loaded / progress.total * 100);
+    }
+  });
+};
+
+// 🖼️ Automatic thumbnail generation
+const thumbnailUrl = imagekit.url({
+  path: videoPath,
+  transformation: [{
+    height: 300,
+    width: 400,
+    crop: "maintain_ratio"
+  }]
+});
 ```
 
-5. Run the development server
+**Why ImageKit?**
+- ✅ **Free tier**: 20GB bandwidth/month
+- ✅ **Auto optimization**: Reduces file sizes by 60%+
+- ✅ **Global CDN**: Fast delivery worldwide
+- ✅ **Real-time transformations**: Resize, crop, format conversion
+- ✅ **Upload progress**: Built-in progress tracking
 
-```bash
-npm run dev
+## 📱 Application Pages
+
+<div align="center">
+
+### **User Journey & Page Flow**
+
+</div>
+
+```mermaid
+graph TD
+    A[🏠 Landing Page] --> B{User Authenticated?}
+    B -->|No| C[🔑 Login/Register]
+    B -->|Yes| D[📤 Upload Videos]
+    C --> E[✅ Authentication Success]
+    E --> F[🎬 Personal Videos]
+    D --> G[📊 Upload Progress]
+    G --> H[🎉 Success Animation]
+    H --> I[🌐 Browse All Videos]
+    F --> J[▶️ Play/Delete Videos]
+    I --> K[🔍 Video Discovery]
 ```
 
-6. Open [http://localhost:3000](http://localhost:3000)
+| Page | Route | Purpose | Features |
+|------|-------|---------|----------|
+| 🏠 **Landing** | `/` | Welcome & overview | Hero section, features, CTA |
+| 🔑 **Login** | `/login` | User authentication | Form validation, loading states |
+| 📝 **Register** | `/register` | Account creation | Email validation, password strength |
+| 📤 **Upload** | `/upload` | Video publishing | Drag & drop, progress, metadata |
+| 🎬 **My Videos** | `/videos` | Personal library | Grid layout, CRUD operations |
+| 🌐 **Browse** | `/browse` | Public discovery | Thumbnail grid, play videos |
 
-## 📱 Pages Overview
+<div align="center">
 
-### Home Page (`/`)
+### **Page Screenshots & Features**
 
-- Hero section with animated background
-- Feature cards highlighting platform benefits
-- CTA buttons (conditional based on auth state)
-- Responsive navigation
+</div>
 
-### Login Page (`/login`)
+#### 🏠 **Landing Page** (`/`)
+```
+┌─────────────────────────────────────────────────────────────┐
+│  🎭 Animated Background + Glassmorphic Hero Section         │
+│  ✨ Feature cards with hover effects                        │
+│  🎯 Dynamic CTAs based on authentication state              │
+│  📱 Fully responsive navigation                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-- Email/password authentication
-- Loading states
-- Link to registration
-- Purple/pink gradient theme
+#### 📤 **Upload Page** (`/upload`) - Protected Route
+```
+┌─────────────────────────────────────────────────────────────┐
+│  🛡️ Authentication check (redirects if not logged in)       │
+│  📁 Drag & drop video upload with file validation           │
+│  📊 Real-time progress bar (0% → 100%)                      │
+│  📝 Title, description, and thumbnail fields                │
+│  🎉 Success animation → redirect to videos                  │
+└─────────────────────────────────────────────────────────────┘
+```
 
-### Register Page (`/register`)
+#### 🌐 **Browse Videos** (`/browse`) - Public Discovery
+```
+┌─────────────────────────────────────────────────────────────┐
+│  🖼️ Video thumbnails in responsive grid                     │
+│  ▶️ Hover play button overlay                               │
+│  👤 Uploader info and upload date                           │
+│  🔒 Login prompt for unauthenticated users                  │
+└─────────────────────────────────────────────────────────────┘
+```
 
-- User registration form
-- Password confirmation
-- Email validation
-- Blue/cyan gradient theme
+## 🔧 Development & Customization
 
-### Upload Page (`/upload`)
+<div align="center">
 
-- Protected route (requires login)
-- Video file upload with progress
-- Title and description fields
-- Optional thumbnail upload
-- Success animation
+### **Extend & Customize VideoHub**
 
-### Videos Page (`/videos`)
+</div>
 
-- Grid layout of uploaded videos
-- Video thumbnails
-- Play and delete actions
-- Empty state with CTA
-- Responsive grid
+### 🎨 **Theming System**
 
-## 🎯 Key Features Explained
+```css
+/* 🌈 Change Color Scheme */
+:root {
+  /* From purple/pink to blue/green */
+  --primary: linear-gradient(135deg, #3b82f6 0%, #10b981 100%);
+  --secondary: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+}
 
-### File Upload
+/* 🎭 Update component classes */
+.btn-primary {
+  @apply bg-gradient-to-r from-blue-600 to-green-600;
+}
+```
 
-- Supports video files up to 100MB
-- Real-time progress tracking
-- Error handling with user feedback
-- Integration with ImageKit for storage
+### 🧩 **Adding New Features**
 
-### Authentication Flow
-
-1. User registers → Creates account
-2. User logs in → Session created
-3. Protected routes check session
-4. Logout → Session destroyed
-
-### Responsive Design
-
-- Mobile-first approach
-- Hamburger menu on mobile
-- Adaptive grid layouts
-- Touch-friendly interactions
-
-## 🔧 Customization
-
-### Changing Colors
-
-Edit `app/globals.css` and component classes:
+```typescript
+// 📁 Create new pags` and component classes:
 
 ```css
 /* Change primary gradient */
