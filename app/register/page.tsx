@@ -39,8 +39,8 @@ export default function RegisterPage(){
             alert("An error occurred during registration");
 
         }
-    }}
-    return(
+    }
+     return(
         <div>
             <h1>Register</h1>
             <form onSubmit={handleSubmit}>
@@ -55,4 +55,6 @@ export default function RegisterPage(){
             </div>
         </div>
     )
+
 }
+   
