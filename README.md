@@ -24,7 +24,8 @@
 
 ### **🏠 Landing Page - Hero Experience**
 
-![VideoHub Landing Page](./public/screenshots/landing-page.png)
+<!-- Replace this placeholder with your actual screenshot URL -->
+<img src="https://via.placeholder.com/800x500/9333ea/ffffff?text=Landing+Page+Screenshot" alt="VideoHub Landing Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 
 > **✨ Features:** Animated blob background • Glassmorphic hero section • Gradient typography • Responsive navigation • Dynamic CTAs
 
@@ -32,7 +33,8 @@
 
 ### **📤 Upload Interface - Creator Dashboard**
 
-![VideoHub Upload Interface](./public/screenshots/upload-interface.png)
+<!-- Replace this placeholder with your actual screenshot URL -->
+<img src="https://via.placeholder.com/800x500/ec4899/ffffff?text=Upload+Interface+Screenshot" alt="VideoHub Upload Interface" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 
 > **🚀 Features:** Drag & drop upload • Real-time progress tracking • Metadata forms • Thumbnail upload • Success animations
 
@@ -40,29 +42,61 @@
 
 ### **🌐 Browse Videos - Public Discovery**
 
-![VideoHub Browse Page](./public/screenshots/browse-videos.png)
+<!-- Replace this placeholder with your actual screenshot URL -->
+<img src="https://via.placeholder.com/800x500/06b6d4/ffffff?text=Browse+Videos+Screenshot" alt="VideoHub Browse Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 
 > **🎬 Features:** Responsive video grid • Thumbnail previews • Hover play buttons • User information • Upload dates
 
 </div>
 
-### **📷 How to Add Screenshots**
+---
 
-To add your application screenshots:
+## 📷 **EASY WAY: Add Your Screenshots in 2 Minutes**
 
-1. **Save your screenshots** as PNG files with these exact names:
-   - `landing-page.png` - Your homepage/landing page
-   - `upload-interface.png` - The video upload page
-   - `browse-videos.png` - The browse/discovery page
+### **Step 1: Upload to GitHub Issues (FREE)**
 
-2. **Place them in** the `public/screenshots/` folder
+1. **Go to your repository** on GitHub
+2. **Click "Issues" tab** → **"New Issue"**
+3. **Title**: "Screenshots for README" 
+4. **Drag & drop your 3 screenshots** into the issue description box
+5. **GitHub will automatically generate URLs** like:
+   ```
+   https://github.com/yourusername/videohub/assets/12345/screenshot1.png
+   ```
+6. **Copy these URLs** (don't submit the issue yet)
 
-3. **Recommended dimensions**: 1200x800px or similar 3:2 aspect ratio
+### **Step 2: Replace Placeholder URLs**
 
-4. **Alternative hosting**: If you prefer external hosting, you can use:
-   - [Imgur](https://imgur.com) - Free image hosting
-   - [GitHub Issues](https://github.com/yourusername/videohub/issues) - Upload images in a new issue and copy the URLs
-   - [ImageKit](https://imagekit.io) - Since you're already using it for the app
+Replace the placeholder URLs above with your actual screenshot URLs:
+
+```markdown
+<!-- Landing Page -->
+<img src="YOUR_LANDING_PAGE_URL_HERE" alt="VideoHub Landing Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+
+<!-- Upload Interface -->
+<img src="YOUR_UPLOAD_PAGE_URL_HERE" alt="VideoHub Upload Interface" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+
+<!-- Browse Videos -->
+<img src="YOUR_BROWSE_PAGE_URL_HERE" alt="VideoHub Browse Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+```
+
+### **Step 3: Done!**
+- **Close the issue** (images will still work)
+- **Commit your README changes**
+- **Your screenshots will now display perfectly!**
+
+---
+
+## 🎯 **Alternative: Use Imgur (Also Easy)**
+
+1. Go to [imgur.com](https://imgur.com)
+2. Upload your 3 screenshots
+3. Right-click each image → "Copy image address"
+4. Replace the placeholder URLs above
+
+---
+
+**Your screenshots show beautiful glassmorphic design - they'll look amazing once properly hosted!** 🚀
 
 ### **🎨 Design System Highlights**
 
