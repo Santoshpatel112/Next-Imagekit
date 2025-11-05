@@ -32,17 +32,27 @@ export default function Navbar() {
               Home
             </button>
             <button 
-              onClick={() => router.push('/upload')}
+              onClick={() => router.push('/browse')}
               className="text-gray-200 hover:text-white transition-colors font-medium"
             >
-              Upload
+              Browse Videos
             </button>
-            <button 
-              onClick={() => router.push('/videos')}
-              className="text-gray-200 hover:text-white transition-colors font-medium"
-            >
-              My Videos
-            </button>
+            {session && (
+              <>
+                <button 
+                  onClick={() => router.push('/upload')}
+                  className="text-gray-200 hover:text-white transition-colors font-medium"
+                >
+                  Upload
+                </button>
+                <button 
+                  onClick={() => router.push('/videos')}
+                  className="text-gray-200 hover:text-white transition-colors font-medium"
+                >
+                  My Videos
+                </button>
+              </>
+            )}
           </div>
 
           {/* User Menu */}
@@ -102,17 +112,27 @@ export default function Navbar() {
               Home
             </button>
             <button 
-              onClick={() => { router.push('/upload'); setIsMenuOpen(false); }}
+              onClick={() => { router.push('/browse'); setIsMenuOpen(false); }}
               className="block w-full text-left px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg transition-colors"
             >
-              Upload
+              Browse Videos
             </button>
-            <button 
-              onClick={() => { router.push('/videos'); setIsMenuOpen(false); }}
-              className="block w-full text-left px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg transition-colors"
-            >
-              My Videos
-            </button>
+            {session && (
+              <>
+                <button 
+                  onClick={() => { router.push('/upload'); setIsMenuOpen(false); }}
+                  className="block w-full text-left px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg transition-colors"
+                >
+                  Upload
+                </button>
+                <button 
+                  onClick={() => { router.push('/videos'); setIsMenuOpen(false); }}
+                  className="block w-full text-left px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg transition-colors"
+                >
+                  My Videos
+                </button>
+              </>
+            )}
             {session ? (
               <>
                 <div className="px-4 py-2 text-gray-300 text-sm">

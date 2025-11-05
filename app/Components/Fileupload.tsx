@@ -25,16 +25,42 @@ const FileUpload = ({
     const [progress, setProgress] = useState(0);
 
     const validatefile = (file: File) => {
+        // File type validation
         if(filetypes === "video"){
             if(!file.type.startsWith("video/")){
                 setError("Invalid file type. Please upload a video file.");
                 return false;
             }
+        } else if(filetypes === "image"){
+            if(!file.type.startsWith("image/")){
+                setError("Invalid file type. Please upload an image file.");
+                return false;
+            }
         }
-        if(file.size > 100 * 1024 * 1024){
-            setError("File size exceeds the 100MB limit.");
+
+        // File size validation based on type
+        const maxSizes = {
+            video: 500 * 1024 * 1024,    // 500MB for videos
+            image: 10 * 1024 * 1024,     // 10MB for images/thumbnails
+            default: 100 * 1024 * 1024   // 100MB for other files
+        };
+
+        let maxSize = maxSizes.default;
+        let sizeLabel = "100MB";
+
+        if(filetypes === "video"){
+            maxSize = maxSizes.video;
+            sizeLabel = "500MB";
+        } else if(filetypes === "image"){
+            maxSize = maxSizes.image;
+            sizeLabel = "10MB";
+        }
+
+        if(file.size > maxSize){
+            setError(`File size exceeds the ${sizeLabel} limit. Your file is ${(file.size / (1024 * 1024)).toFixed(1)}MB.`);
             return false;
         }
+
         return true;
     }
 
@@ -110,9 +136,9 @@ const FileUpload = ({
                              "Click to select file"}
                         </p>
                         <p className="text-gray-400 text-sm">
-                            {filetypes === "video" ? "MP4, WebM, or OGG (Max 100MB)" : 
-                             filetypes === "image" ? "PNG, JPG, or GIF" : 
-                             "Any file type"}
+                            {filetypes === "video" ? "MP4, WebM, or OGV (Max 500MB)" : 
+                             filetypes === "image" ? "PNG, JPG, or GIF (Max 10MB)" : 
+                             "Any file type (Max 100MB)"}
                         </p>
                     </div>
                 )}
