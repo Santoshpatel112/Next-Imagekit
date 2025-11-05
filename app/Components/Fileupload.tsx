@@ -37,17 +37,6 @@ const FileUpload = () => {
             throw new Error("Authentication request failed");
         }
     };
-
-    /**
-     * Handles the file upload process.
-     *
-     * This function:
-     * - Validates file selection.
-     * - Retrieves upload authentication credentials.
-     * - Initiates the file upload via the ImageKit SDK.
-     * - Updates the upload progress.
-     * - Catches and processes errors accordingly.
-     */
     const handleUpload = async () => {
         // Access the file input element using the ref
         const fileInput = fileInputRef.current;
@@ -106,14 +95,11 @@ const FileUpload = () => {
 
     return (
         <>
-            {/* File input element using React ref */}
             <input type="file" ref={fileInputRef} />
-            {/* Button to trigger the upload process */}
             <button type="button" onClick={handleUpload}>
                 Upload file
             </button>
             <br />
-            {/* Display the current upload progress */}
             Upload progress: <progress value={progress} max={100}></progress>
         </>
     );
