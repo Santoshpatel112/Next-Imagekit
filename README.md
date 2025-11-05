@@ -1,10 +1,10 @@
-# 🎥 VideoHub - Next-Gen Video Platform
+# 🎥 VideoHub - Modern Video Platform
 
 <div align="center">
 
-![VideoHub Banner](https://img.shields.io/badge/VideoHub-Next--Gen%20Platform-blueviolet?style=for-the-badge&logo=video&logoColor=white)
+![VideoHub Banner](https://img.shields.io/badge/VideoHub-Enterprise%20Grade-blueviolet?style=for-the-badge&logo=video&logoColor=white)
 
-**A stunning, modern video upload and management platform with glassmorphism UI, real-time features, and seamless user experience**
+**Enterprise-grade video management platform built with Next.js 15, featuring real-time uploads, CDN optimization, and modern authentication**
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.0-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
@@ -12,122 +12,122 @@
 [![ImageKit](https://img.shields.io/badge/ImageKit-CDN-ff6b6b?style=flat-square)](https://imagekit.io/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
 
-[🚀 Live Demo](https://your-demo-url.com) • [📖 Documentation](#-documentation) • [🎯 Features](#-features) • [⚡ Quick Start](#-quick-start)
+[🚀 Live Demo](https://your-demo-url.com) • [📖 API Docs](#api-documentation) • [�️ Arechitecture](#architecture) • [⚡ Quick Start](#quick-start)
 
 </div>
 
 ---
 
-## 📸 Live Application Screenshots
+## 🏗️ Architecture Overview
 
-<div align="center">
+VideoHub is built with modern full-stack architecture, emphasizing scalability, performance, and developer experience.
 
-### **🏠 Landing Page - Hero Experience**
+### **Core Technologies**
 
-![VideoHub Landing Page](https://via.placeholder.com/800x500/9333ea/ffffff?text=🏠+Landing+Page)
+| Layer | Technology | Purpose | Benefits |
+|-------|------------|---------|----------|
+| **Frontend** | Next.js 15 + TypeScript | Full-stack React framework | SSR, API routes, type safety |
+| **Styling** | Tailwind CSS | Utility-first CSS | Rapid development, consistent design |
+| **Database** | MongoDB Atlas | NoSQL document store | Flexible schema, cloud-native |
+| **Authentication** | NextAuth.js | Session management | Secure, extensible auth |
+| **Media CDN** | ImageKit | Asset optimization | Global delivery, real-time transforms |
+| **Deployment** | Vercel | Serverless hosting | Auto-scaling, edge functions |
 
-> **✨ Features:** Animated blob background • Glassmorphic hero section • Gradient typography • Responsive navigation • Dynamic CTAs
+### **Key Features**
+
+#### **🔐 Authentication & Security**
+- JWT-based session management with NextAuth.js
+- Protected API routes with middleware validation
+- Secure password hashing with bcryptjs
+- CSRF protection and secure cookies
+
+#### **📤 Media Management**
+- Real-time upload progress tracking
+- Automatic video optimization via ImageKit CDN
+- Thumbnail generation and responsive delivery
+- File validation and size limits
+
+#### **🎨 Modern UI/UX**
+- Glassmorphism design with backdrop filters
+- CSS animations and micro-interactions
+- Responsive grid layouts with Tailwind CSS
+- Mobile-first responsive design
+
+#### **⚡ Performance Optimizations**
+- Server-side rendering with Next.js App Router
+- Image optimization and lazy loading
+- API route caching and optimization
+- MongoDB indexing for fast queries
 
 ---
 
-### **📤 Upload Interface - Creator Dashboard**
+## 🚀 Technical Stack
 
-![VideoHub Upload Interface](https://via.placeholder.com/800x500/ec4899/ffffff?text=📤+Upload+Interface)
+### **Frontend Architecture**
 
-> **🚀 Features:** Drag & drop upload • Real-time progress tracking • Metadata forms • Thumbnail upload • Success animations
-
----
-
-### **🌐 Browse Videos - Public Discovery**
-
-![VideoHub Browse Page](https://via.placeholder.com/800x500/06b6d4/ffffff?text=🌐+Browse+Videos)
-
-> **🎬 Features:** Responsive video grid • Thumbnail previews • Hover play buttons • User information • Upload dates
-
-</div>
-
----
-
-## 📷 **EASY WAY: Add Your Screenshots in 2 Minutes**
-
-### **Step 1: Upload to GitHub Issues (FREE)**
-
-1. **Go to your repository** on GitHub
-2. **Click "Issues" tab** → **"New Issue"**
-3. **Title**: "Screenshots for README" 
-4. **Drag & drop your 3 screenshots** into the issue description box
-5. **GitHub will automatically generate URLs** like:
-   ```
-   https://github.com/yourusername/videohub/assets/12345/screenshot1.png
-   ```
-6. **Copy these URLs** (don't submit the issue yet)
-
-### **Step 2: Replace Placeholder URLs**
-
-Replace the placeholder URLs above with your actual screenshot URLs:
-
-```markdown
-<!-- Landing Page -->
-<img src="YOUR_LANDING_PAGE_URL_HERE" alt="VideoHub Landing Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
-
-<!-- Upload Interface -->
-<img src="YOUR_UPLOAD_PAGE_URL_HERE" alt="VideoHub Upload Interface" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
-
-<!-- Browse Videos -->
-<img src="YOUR_BROWSE_PAGE_URL_HERE" alt="VideoHub Browse Page" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+```mermaid
+graph TD
+    A[Next.js 15 App Router] --> B[React 18 Server Components]
+    A --> C[TypeScript 5.0]
+    B --> D[Tailwind CSS 3.4]
+    C --> E[Custom Animations]
+    D --> F[Glassmorphism UI]
+    E --> G[Responsive Design]
 ```
 
-### **Step 3: Done!**
-- **Close the issue** (images will still work)
-- **Commit your README changes**
-- **Your screenshots will now display perfectly!**
+### **Backend Services**
+
+```mermaid
+graph LR
+    A[Next.js API Routes] --> B[NextAuth.js]
+    A --> C[MongoDB Atlas]
+    A --> D[ImageKit CDN]
+    B --> E[JWT Sessions]
+    C --> F[Mongoose ODM]
+    D --> G[Media Optimization]
+```
+
+### **Production Stack**
+
+| Component | Technology | Environment | Scaling |
+|-----------|------------|-------------|---------|
+| **Application** | Next.js 15 | Vercel Edge | Auto-scaling |
+| **Database** | MongoDB Atlas | Cloud | Horizontal scaling |
+| **CDN** | ImageKit | Global | Edge locations |
+| **Authentication** | NextAuth.js | Stateless | Session-based |
+| **Monitoring** | Vercel Analytics | Real-time | Performance metrics |
 
 ---
 
-## 🎯 **Alternative: Use Imgur (Also Easy)**
+## 📁 Project Structure
 
-1. Go to [imgur.com](https://imgur.com)
-2. Upload your 3 screenshots
-3. Right-click each image → "Copy image address"
-4. Replace the placeholder URLs above
-
----
-
-**Your screenshots show beautiful glassmorphic design - they'll look amazing once properly hosted!** 🚀
-
-### **🎨 Design System Highlights**
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Glassmorphism-UI-9333ea?style=for-the-badge" alt="Glassmorphism"/>
-<br/>
-<strong>Frosted Glass Effects</strong>
-<br/>
-<small><code>backdrop-blur-xl</code></small>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Animated-Backgrounds-ec4899?style=for-the-badge" alt="Animations"/>
-<br/>
-<strong>Floating Animations</strong>
-<br/>
-<small><code>CSS Keyframes</code></small>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Responsive-Design-06b6d4?style=for-the-badge" alt="Responsive"/>
-<br/>
-<strong>Mobile-First</strong>
-<br/>
-<small><code>Tailwind Grid</code></small>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Real--time-Progress-10b981?style=for-the-badge" alt="Progress"/>
-<br/>
-<strong>Live Tracking</strong>
-<br/>
-<small><code>ImageKit API</code></small>
-</td>
-</tr>
+```
+📦 videohub/
+├── 📂 app/                          # Next.js App Router
+│   ├── 📂 api/                      # API endpoints
+│   │   ├── 📂 auth/                 # Authentication routes
+│   │   │   ├── 📂 [...nextauth]/    # NextAuth.js handler
+│   │   │   └── 📂 imagekit-auth/    # ImageKit auth token
+│   │   └── 📂 videos/               # Video CRUD operations
+│   ├── 📂 Components/               # Reusable UI components
+│   │   ├── 🎭 AnimatedBackground.tsx # Floating animations
+│   │   ├── 📤 Fileupload.tsx        # Upload component
+│   │   ├── 🧭 Navbar.tsx            # Navigation
+│   │   └── 🔧 providers.tsx         # Context providers
+│   ├── 📂 (pages)/                  # Application pages
+│   │   ├── 📂 browse/               # Public discovery
+│   │   ├── 📂 login/                # Authentication
+│   │   ├── 📂 register/             # User registration
+│   │   ├── 📂 upload/               # Video upload
+│   │   └── 📂 videos/               # User library
+│   ├── 🎨 globals.css               # Global styles
+│   ├── 📄 layout.tsx                # Root layout
+│   └── 📄 page.tsx                  # Landing page
+├── 📂 Models/                       # Database schemas
+│   ├── 👤 User.ts                   # User model
+│   └── 🎬 Video.ts                  # Video model
+├── 📂 types/                        # TypeScript definitions
+│   └── 🎬 video.ts                  # Vide
 </table>
 
 ### **📱 Responsive Showcase**
